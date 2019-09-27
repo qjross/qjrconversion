@@ -7,8 +7,8 @@ $("div").mouseenter(function(){
     $("#area").css("background-color", "green");
 });
     
-    $("#reset").click(function(){
-        $("this").css("background-color", "#953674");
+    $("button").click(function(){
+        $("#area").css("background-color", "#953674");
     });
     
 });
